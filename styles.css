@@ -1,0 +1,159 @@
+*{
+    display: flexbox;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    top: 20px;
+    width: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+#myButton{
+    border: none;
+    padding: 10px;
+    position: relative;
+    background-color: rgb(60, 48, 48);
+    color: white;
+}
+#myButton:hover{
+    border: none;
+    padding: 10px;
+    position: relative;
+    background-color: rgb(55, 185, 70);
+    color: white;
+}
+#myButton:active{
+    border: 0.1px solid black;
+    padding: 10px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+#input{
+    width: 80%;
+}
+.name{
+    padding: 2px;
+    display: flex;
+    position: absolute;
+    background-color: rgb(194, 182, 182);
+    top: 30%;
+    width: 200px;
+    height: 285px; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* red color  */
+.name .ra{
+    position: absolute;
+    height: 20px;
+    width: 117px;
+    background-color: red;
+    top: 20px;
+    left: 40px;
+}
+.name .rb{
+    position: absolute;
+    height: 75px;
+    width: 20px;
+    background-color: red;
+    top: 43px;
+    left: 169px;
+}
+.name .rg{
+    position: absolute;
+    height: 20px;
+    width: 117px;
+    background-color: red;
+    top: 131px;
+    left: 40px;
+}
+.name .rd{
+    position: absolute;
+    height: 20px;
+    width: 117px;
+    background-color: red;
+    top: 240px;
+    left: 40px;
+}
+.name .rc{
+    position: absolute;
+    height: 75px;
+    width: 20px;
+    background-color: red;
+    top: 162px;
+    left: 169px;
+}
+.name .re{
+    position: absolute;
+    height: 75px;
+    width: 20px;
+    background-color: red;
+    top: 163px;
+    left: 14px;
+}
+.name .rf{
+    position: absolute;
+    height: 75px;
+    width: 20px;
+    background-color: red;
+    top: 43px;
+    left: 17px;
+}
+.light{
+    border-radius: 10px;
+}
+
+/* green color*/
+.name .ga{
+    background-color: green;
+}
+.name .gb{
+    background-color: green;
+}
+.name .gc{
+    background-color: green;
+}
+.name .gd{
+    background-color: green;
+}
+.name .ge{
+    background-color: green;
+}
+.name .gf{
+    background-color: green;
+}
+.name .gg{
+    background-color: green;
+}
+
+/* non-color */
+
+.name .na{
+    background-color: white;
+}
+.name .nb{
+    background-color: white;
+}
+.name .nc{
+    background-color: white;
+}
+.name .nd{
+    background-color: white;
+}
+.name .ne{
+    background-color: white;
+}
+.name .nf{
+    background-color: white;
+}
+.name .ng{
+    background-color: white;
+}
