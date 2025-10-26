@@ -123,6 +123,6 @@ function handleButtonClick() {
 function resetClasses() {
     const elements = [a, b, c, d, e, f, g];
     elements.forEach(element => {
-        element.className = element.className.split(' ')[0]; // Remove all but the first class
+        element.className = element.className.split(' ')[0];
     });
 }
